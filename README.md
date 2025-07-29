@@ -87,7 +87,6 @@ gcc -o watchdog.out *.o
 ### Watchdog Example
 ```c
 #include "wd.h"
-#include <unistd.h>
 
 int main(int argc, char* argv[]) {
     // Start watchdog with 2-second intervals and 3-timeout threshold
